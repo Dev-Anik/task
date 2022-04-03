@@ -1,0 +1,380 @@
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .container {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background: #cd202e;
+  }
+  h3 {
+    font-size: 50px;
+    color: #cd202e;
+  }
+  /* ============================ */
+  /* first part starts here */
+  /* =============================*/
+  .market {
+    display: block;
+    align-items: center;
+    padding: 18px 0px;
+    gap: 0px;
+    background: #cd202e;
+    max-height: max-content !important;
+    position: relative;
+  }
+
+  .meeting-image {
+    display: none;
+  }
+  .details {
+    position: relative;
+
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 20px;
+    background-color: black;
+    background-image: linear-gradient(rgb(52 48 48), rgb(0 0 0 / 45%)),
+      url(../images/tab-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .details h3 {
+    position: revert;
+    text-align: center;
+    font-size: 20px;
+  }
+  .details p {
+    font-size: 11px;
+    color: white;
+    margin-top: 26px;
+    word-spacing: 2.5px;
+
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  /* ============================ */
+  /* first part ends here */
+  /* =============================*/
+
+  /* ============================ */
+  /* market role part starts here */
+  /* =============================*/
+  .market-role {
+    margin-top: 0px;
+  }
+  .market-role h3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  /* ============================ */
+  /*  SECOND & FOURTH part starts here */
+  /* ============================ */
+  .second-fourth {
+    display: grid;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 10px;
+    background-color: #cd202e;
+    border-radius: 0px;
+    height: 258px;
+    width: 100%;
+    position: relative;
+    grid-template-columns: 59% 35%;
+  }
+  .second-fourth-texts {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .second-fourth-texts h4 {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+  }
+  .second-fourth-texts p {
+    font-size: 11px;
+    color: white;
+    margin-top: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    word-spacing: 1.5px;
+  }
+  .second-fourth img {
+    width: 234px;
+    height: 234px;
+    position: absolute;
+    right: -87px;
+    display: block;
+    content: url("../images/social-mobile.png");
+  }
+
+  /* ============================ */
+  /* THIRD & FIFTH part starts here */
+  /* ============================ */
+  .third-fifth {
+    display: grid;
+    align-items: center;
+    margin-left: 0px;
+    background-color: #cd202e;
+    border-radius: 0px;
+    height: 258px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+    grid-gap: 5px;
+    grid-template-columns: 35% 65%;
+  }
+  .third-fifth-texts {
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-column: 2;
+  }
+  .third-fifth-texts h4 {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+  }
+  .third-fifth-texts p {
+    font-size: 11px;
+    color: white;
+    margin-top: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    word-spacing: 1.5px;
+    margin-right: 21px;
+  }
+  .third-fifth img {
+    width: 234px;
+    height: 234px;
+    position: absolute;
+    left: -107px;
+    content: url("../images/brand-mobile.png");
+  }
+
+  /* ============================ */
+  /* additional styles starts here */
+  /* ============================ */
+
+  .fourth-banner {
+    margin-top: 15px !important;
+  }
+  .executive-details {
+    margin-bottom: 15px !important;
+  }
+
+  .market-manager-text {
+    margin-bottom: 15px !important;
+  }
+
+  .fourth-banner img {
+    content: url("../images/market-executive-mobile.png");
+    right: -87px;
+  }
+  .fifth-banner img {
+    content: url("../images/marketing-manager-mobile.png");
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 375px) {
+  .fifth-banner {
+    margin-top: 25px !important;
+  }
+  .container {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background: #cd202e;
+  }
+  h3 {
+    font-size: 50px;
+    color: #cd202e;
+  }
+  /* ============================ */
+  /* first part starts here */
+  /* =============================*/
+  .market {
+    display: block;
+    align-items: center;
+    padding: 18px 0px;
+    gap: 0px;
+    background: #cd202e;
+    max-height: max-content !important;
+    position: relative;
+  }
+
+  .meeting-image {
+    display: none;
+  }
+  .details {
+    position: relative;
+
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 20px;
+    background-color: black;
+    background-image: linear-gradient(rgb(52 48 48), rgb(0 0 0 / 45%)),
+      url(../images/tab-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .details h3 {
+    position: revert;
+    text-align: center;
+    font-size: 18px;
+  }
+  .details p {
+    font-size: 11px;
+    color: white;
+    margin-top: 26px;
+    word-spacing: 2.5px;
+
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  /* ============================ */
+  /* first part ends here */
+  /* =============================*/
+
+  /* ============================ */
+  /* market role part starts here */
+  /* =============================*/
+  .market-role {
+    margin-top: 0px;
+  }
+  .market-role h3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  /* ============================ */
+  /*  SECOND & FOURTH part starts here */
+  /* ============================ */
+  .second-fourth {
+    display: grid;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 10px;
+    background-color: #cd202e;
+    border-radius: 0px;
+    height: 258px;
+    width: 100%;
+    position: relative;
+    grid-template-columns: 59% 35%;
+  }
+  .second-fourth-texts {
+    margin-left: 0px;
+    margin-right: 22px;
+  }
+  .second-fourth-texts h4 {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+  }
+  .second-fourth-texts p {
+    font-size: 9px;
+    color: white;
+    margin-top: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    word-spacing: 0.5px;
+  }
+  .second-fourth img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -87px;
+    display: block;
+    content: url("../images/social-mobile.png");
+  }
+
+  /* ============================ */
+  /* THIRD & FIFTH part starts here */
+  /* ============================ */
+  .third-fifth {
+    display: grid;
+    align-items: center;
+    margin-left: 0px;
+    background-color: #cd202e;
+    border-radius: 0px;
+    height: 258px;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+    grid-gap: 5px;
+    grid-template-columns: 35% 65%;
+  }
+  .third-fifth-texts {
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-column: 2;
+  }
+  .third-fifth-texts h4 {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    margin-top: 0px;
+  }
+  .third-fifth-texts p {
+    font-size: 9px;
+    color: white;
+    margin-top: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    word-spacing: 0.5px;
+    margin-right: 21px;
+  }
+  .third-fifth img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -107px;
+    content: url("../images/brand-mobile.png");
+  }
+
+  /* ============================ */
+  /* additional styles starts here */
+  /* ============================ */
+
+  .fourth-banner {
+    margin-top: 15px !important;
+  }
+  .executive-details {
+    margin-bottom: 15px !important;
+  }
+
+  .market-manager-text {
+    margin-bottom: 15px !important;
+  }
+
+  .fourth-banner img {
+    content: url("../images/market-executive-mobile.png");
+    right: -62px;
+  }
+  .fifth-banner img {
+    content: url("../images/marketing-manager-mobile.png");
+  }
+}
