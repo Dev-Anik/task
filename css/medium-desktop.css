@@ -1,0 +1,165 @@
+@media screen and (min-width: 1592px) and (max-width: 1840px) {
+  .container {
+    margin-left: 45px;
+    margin-bottom: 400px;
+    margin-top: 400px;
+  }
+  h3 {
+    font-size: 50px;
+    color: #cd202e;
+  }
+  /* ============================ */
+  /* first part starts here */
+  /* =============================*/
+  .market {
+    /*! margin-top: 460px; */
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 65px;
+    max-height: 340px;
+    background: #cd202e;
+  }
+
+  .meeting-image {
+    background-image: url("../images/cover.png");
+    border-radius: 35px;
+    width: 200%;
+    height: 485px;
+    margin-left: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .details {
+    position: relative;
+    margin-right: 80px;
+    margin-top: 31px;
+  }
+
+  .details h3 {
+    position: absolute;
+    top: -96px;
+  }
+  .details p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+    word-spacing: 1.5px;
+  }
+  /* ============================ */
+  /* first part ends here */
+  /* =============================*/
+
+  /* ============================ */
+  /* market role part starts here */
+  /* =============================*/
+  .market-role {
+    margin-top: 167px;
+  }
+  .market-role h3 {
+    text-align: center;
+  }
+
+  /* ============================ */
+  /*  SECOND & FOURTH part starts here */
+  /* ============================ */
+  .second-fourth {
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 61px;
+    background-color: #cd202e;
+    border-radius: 15px;
+    height: 300px;
+    width: 1170px;
+    position: relative;
+  }
+  .second-fourth-texts {
+    margin-left: 54px;
+    margin-right: 200px;
+  }
+  .second-fourth-texts h4 {
+    text-align: right;
+    font-size: 35px;
+    color: white;
+
+    margin-top: 30px;
+  }
+  .second-fourth-texts p {
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    text-align: right;
+    margin-bottom: 50px;
+    word-spacing: 2.5px;
+  }
+  .second-fourth img {
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    right: -162px;
+  }
+
+  /* ============================ */
+  /* THIRD & FIFTH part starts here */
+  /* ============================ */
+  .third-fifth {
+    display: flex;
+    align-items: center;
+    margin-left: 310px;
+    margin-top: 105px;
+    background-color: #cd202e;
+    border-radius: 15px;
+    height: 300px;
+    width: 1170px;
+    position: relative;
+  }
+  .third-fifth-texts {
+    margin-left: 235px;
+    margin-right: 54px;
+  }
+  .third-fifth-texts h4 {
+    text-align: left;
+    font-size: 35px;
+    color: white;
+
+    margin-top: 35px;
+  }
+  .third-fifth-texts p {
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 50px;
+    word-spacing: 2.5px;
+  }
+  .third-fifth img {
+    width: 369px;
+    height: 369px;
+    position: absolute;
+    left: -175px;
+  }
+
+  /* ============================ */
+  /* additional styles starts here */
+  /* ============================ */
+
+  .fourth-banner {
+    margin-top: 104px !important;
+  }
+  .fourth-banner img {
+    content: url("../images/market-executive.png") !important;
+    right: -180px !important;
+  }
+  .fifth-banner img {
+    content: url("../images/marketing-manager.png") !important;
+    right: -180px !important;
+  }
+  .executive-details {
+    margin-bottom: 23px !important;
+  }
+
+  .market-manager-text {
+    margin-bottom: 26px !important;
+  }
+}
